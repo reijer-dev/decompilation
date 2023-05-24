@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        args = new String[]{"C:\\Users\\reije\\Project1.rep\\idata\\00\\~00000005.db\\db.2.gbf"};
+        args = new String[]{"C:\\Users\\reije\\Documents\\Development\\decompilation\\GhidraExporter\\Project1.rep\\idata\\00\\~00000005.db\\db.2.gbf"};
         try {
             if (args.length != 1)
                 throw new Exception("Invalid argument list length");
