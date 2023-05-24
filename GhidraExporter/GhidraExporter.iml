@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/ahessian.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/antlr-runtime-3.5.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/asm-debug-all-5.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/automaton-1.11.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/AXMLPrinter2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/baksmali-2.5.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/Base.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/bcpkix-jdk15on-1.69.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/bcprov-jdk15on-1.69.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/bcutil-jdk15on-1.69.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/BytePatterns.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/ByteViewer.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-beanutils-1.9.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-cli-1.5.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-codec-1.15.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-collections-3.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-collections4-4.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-compress-1.21.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-configuration2-2.8.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-io-2.11.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-lang-2.6.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-lang3-3.12.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-logging-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-net-3.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-text-1.10.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/commons-vfs2-2.9.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/DB.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/DebugUtils.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/Decompiler.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/DecompilerDependent.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/dex-ir-2.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/dex-reader-2.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/dex-reader-api-2.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/dex-translator-2.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/dexlib2-2.5.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/Docking.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/dropbox-core-sdk-1.7.7.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/Emulation.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/failureaccess-1.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/FileFormats.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/FileSystem.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/flatlaf-2.6.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/forms-1.2.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/formsrt.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/FunctionGraph.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/FunctionGraphDecompilerExtension.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/FunctionID.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/Generic.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/GhidraServer.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/glazedlists-1.10.0_java16.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/GnuDemangler.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/Graph.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/GraphFunctionCalls.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/GraphServices.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/groovy-4.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/groovy-patch.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/groovy-patch9.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/gson-2.9.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/guava-31.1-jre.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/Gui.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/Help.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/hessian4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/httpclient-4.5.13.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/isorelax-20050913.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jackrabbit-webdav-2.21.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jackson-core-2.11.3.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/javahelp-2.0.05.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jdom-legacy-1.1.3.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jgrapht-core-1.5.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jgrapht-io-1.5.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jheaps-0.13.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jna-5.12.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jna-platform-5.12.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/joda-time-2.7.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jung-algorithms-2.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jung-api-2.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jung-graph-impl-2.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jung-visualization-2.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jungrapht-layout-1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jungrapht-visualization-1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/jython-standalone-2.7.3.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/keystore.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/log4j-api-2.17.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/log4j-core-2.17.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/MicrosoftCodeAnalyzer.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/MicrosoftDemangler.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/MicrosoftDmang.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/msv-20050913.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/netty-buffer-4.1.86.Final.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/netty-codec-4.1.86.Final.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/netty-common-4.1.86.Final.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/netty-handler-4.1.86.Final.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/netty-resolver-4.1.86.Final.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/netty-transport-4.1.86.Final.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/org.apache.felix.framework-7.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/PDB.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/permit-reflect-0.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/phidias-0.3.7.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/prevayler-core-2.6.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/prevayler-factory-2.6.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/ProgramDiff.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/ProgramGraph.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/Project.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/Python.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/Recognizers.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/relaxngDatatype-20050913.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/sevenzipjbinding-16.02-2.01.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/sevenzipjbinding-all-platforms-16.02-2.01.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/sigar-1.6.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/sigar-lib-1.6.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/slf4j-api-1.7.25.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/slf4j-api-1.7.30.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/slf4j-nop-1.7.25.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/slf4j-simple-1.7.30.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/SoftwareModeling.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/SourceCodeLookup.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/SystemEmulation.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/timingframework-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/util-2.5.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/Utility.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/velocity-engine-core-2.3.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/VersionTracking.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/vfs-dbx-00.02.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/wrapper.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/wrapperApp.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/wrapperApp9.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/xercesImpl.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/xsdlib-20050913.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/xz-1.9.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/yacron4j-00.03.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/biz.aQute.bnd.util-6.2.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/biz.aQute.bndlib-6.2.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/org.osgi.util.promise-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/biz.aQute.bnd.util-6.2.0.jar!/OSGI-OPT/src" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/biz.aQute.bndlib-6.2.0.jar!/OSGI-OPT/src" />
+          <root url="jar://$USER_HOME$/Downloads/ghidra_10.3_PUBLIC/alljars/org.osgi.util.promise-1.2.0.jar!/OSGI-OPT/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

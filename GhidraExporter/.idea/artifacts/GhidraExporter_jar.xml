@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GhidraExporter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GhidraExporter_jar</output-path>
+    <root id="archive" name="GhidraExporter.jar">
+      <element id="module-output" name="GhidraExporter" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/ghidra_10.2.3_PUBLIC_20230208/ghidra_10.2.3_PUBLIC/Ghidra/Framework/DB/lib/DB.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
