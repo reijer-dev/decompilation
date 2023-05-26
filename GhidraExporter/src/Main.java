@@ -1,6 +1,4 @@
-import db.DBHandle;
-import db.IntField;
-import db.StringField;
+import db.*;
 import db.buffers.LocalBufferFile;
 
 import java.io.File;
@@ -8,38 +6,41 @@ import java.io.IOException;
 
 import ghidra.util.exception.*;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.text.Format;
 import java.text.MessageFormat;
 import java.util.Arrays;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
+
     public static void main(String[] args) {
-        args = new String[]{"C:\\Users\\reije\\Documents\\Development\\decompilation\\GhidraExporter\\Project1.rep\\idata\\00\\~00000005.db\\db.2.gbf"};
         try {
-            if (args.length != 1)
-                throw new Exception("Invalid argument list length");
-            var dbFile = new File(args[0]);
-            if (!dbFile.exists())
-                throw new Exception("File does not exist");
-            var bf = new LocalBufferFile(dbFile, true);
-            var handle = new DBHandle(bf);
-            var tables = handle.getTables();
-            for (var table : tables) {
-                System.out.println(table.getName() + "(records: " + table.getRecordCount() + ")");
-                try {
+            var dir = "C:\\Users\\reije\\Project2.rep";
+            var gbfFiles = Files.walk(Paths.get(dir))
+                    .filter(file -> file.toString().endsWith(".gbf"))
+                    .collect(Collectors.toSet());
+            for (var gbfFile : gbfFiles) {
+                var dbFile = new File(gbfFile.toString());
+                if (!dbFile.exists())
+                    throw new Exception("File does not exist");
+                var bf = new LocalBufferFile(dbFile, true);
+                var handle = new DBHandle(bf);
+                var table = handle.getTable("Label History");
                     var it = table.iterator();
+                    System.out.println("<functions>");
                     while (it.hasNext()) {
-                        System.out.println("New record of table " + table);
                         var record = it.next();
-                        for (var i = 0; i < 200; i++) {
-                            if (record.getFieldValue(i) instanceof StringField)
-                                System.out.println(record.getString(i));
-                        }
+                        System.out.printf("<function line=\"%s\" name=\"%s\" />%n", Long.toHexString(record.getLongValue(0)), record.getString(2));
                     }
-                }catch(Exception ex){}
+                    System.out.println("</functions>");
             }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (Exception e) {
+        } catch (
+                Exception e) {
             throw new RuntimeException(e);
         }
     }
